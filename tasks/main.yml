@@ -1,5 +1,4 @@
 ---
-
 - name: Intall yum packages
   yum: pkg={{ item }} state=present
   with_items:
